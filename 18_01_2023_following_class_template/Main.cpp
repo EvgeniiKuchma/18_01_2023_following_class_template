@@ -33,16 +33,16 @@ private:
 	T _width;
 };
 //Variadic Template - Вариабельные шаблоны
-	template<typename ...Args>
-	class MyClass1
-	{
-		void function(Args...args)//внутри функции  function использование sizeof...(Args) либо sizeof...(args) возвращает размер пачки(структуры)
-			//( вданном случае они равны, так как пачка параметров функции получается из пачки шаблонов)
-		{
-		
-		
-		}
-	};
+	//template<typename ...Args>
+	//class MyClass1
+	//{
+	//	void function(Args...args)//внутри функции  function использование sizeof...(Args) либо sizeof...(args) возвращает размер пачки(структуры)
+	//		//( вданном случае они равны, так как пачка параметров функции получается из пачки шаблонов)
+	//	{
+	//	
+	//	
+	//	}
+	//};
 //template<typename ...T>
 //auto summ_all(T...args)
 //{
